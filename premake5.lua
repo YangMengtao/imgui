@@ -24,11 +24,11 @@ project "imgui"
 		pic "On"
 
 		systemversion "latest"
-		staticruntime "On"
+		staticruntime "on"
 
 	filter "system:windows"
 		systemversion "latest"
-		staticruntime "On"
+		staticruntime "on"
 		cppdialect "C++17"
 
 	filter "configurations:Release"
